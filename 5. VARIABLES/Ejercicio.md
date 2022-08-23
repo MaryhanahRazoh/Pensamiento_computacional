@@ -49,13 +49,28 @@ Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro c
 ## EJERCICIO 3
 
 Realiza un algoritmo para un programa que solicite al usuario su nombre y le salude usando ese nombre
-
-      TU ALGORITMO AQUI  
+inicio 
+declarar nombre (str)
+mostrar ("ingresa tu nombre")
+asignar nombre 
+mostrar ("hola", nombre)
+fin 
 
 ## EJERCICIO 3
 
 Realiza un algoritmo para  un programa que solicite al usuario ingresar la cantidad de kilómetros recorridos por una motocicleta y la cantidad de litros de combustible que consumió durante ese recorrido. El consumo por kilómetro es de 20.8
 
-      TU ALGORITMO AQUI  
+     Algoritmo hola
+	km_recorrido<-0.0
+	cons_km<-20.8
+	gas_cons<-0.0
+	
+	Escribir "ingresa la cantidad de km_recorrido "
+	Leer km_recorrido
+	gas_cons<-km_recorrido*cons_km
+	Escribir "recorriendo ", km_recorrido, "consumes", gas_cons, "lt"
+FinAlgoritmo
+      declarar km recorrido 
+      
 
 Ahora llevalos a PSINT
