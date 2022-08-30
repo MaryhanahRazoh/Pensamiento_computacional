@@ -34,3 +34,32 @@
 3. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
 
         TU ALGORITMO Y DIAGRAMA AQUI
+4.- Realizar un algoritmo y diagrama de flujo que indique s i la letra ingresada es vocal o no es vocal
+
+Algoritmo sin_titulo
+	vocal<- "  "
+	Escribir "escribir una letra"
+	Leer vocal
+	Segun vocal Hacer
+	
+		"a" o "A":
+			Escribir "el caracter ", vocal, "  es vocal" 
+		
+		"e" o "E":
+			Escribir "el caracter ", vocal, "  es vocal" 
+		
+		"i" o "I":
+			Escribir "el caracter ", vocal, "  es vocal" 
+		
+		"o" o "O":
+			Escribir "el caracter ", vocal, "  es vocal" 
+		
+		"u" o "U":
+			Escribir "el caracter ", vocal, "  es vocal" 
+			
+			
+		De Otro Modo:
+			Escribir "El caracter ", vocal  , "  NO es vocal  "
+	Fin Segun
+FinAlgoritmo
+
