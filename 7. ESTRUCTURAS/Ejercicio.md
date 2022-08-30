@@ -62,4 +62,20 @@ Algoritmo sin_titulo
 			Escribir "El caracter ", vocal  , "  NO es vocal  "
 	Fin Segun
 FinAlgoritmo
+ realizar un algoritmo que muestre las tablas del 1 al 10
+ 
+ Algoritmo sin_titulo
+inicio 
+declarar numero,contador,resultado
+asignar contador = 1
+asignar resultado = 0
+mostrar "ingrese el numero que quiere multiplicar"
+asignar numero 
+para contador<=10 hacer
+resultado = numero*contador
+mostrar numero, "x", contador, "x", resultado
+contador = contador +1
+fin 
+
+
 
