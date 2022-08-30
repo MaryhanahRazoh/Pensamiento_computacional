@@ -62,7 +62,8 @@ Algoritmo sin_titulo
 			Escribir "El caracter ", vocal  , "  NO es vocal  "
 	Fin Segun
 FinAlgoritmo
- realizar un algoritmo que muestre las tablas del 1 al 10
+
+ Realizar un algoritmo que muestre las tablas del 1 al 10
  
  Algoritmo sin_titulo
 inicio 
@@ -76,6 +77,22 @@ resultado = numero*contador
 mostrar numero, "x", contador, "x", resultado
 contador = contador +1
 fin 
+
+
+Algoritmo sin_titulo
+	contador<-1
+	numero_ingresado<-0
+	resultado<-0
+	Escribir "ingresa un numero"
+	Leer numero_ingresado
+	Para contador<-1 Hasta 10 Con Paso 1 Hacer
+		resultado<-contador * numero_ingresado
+		Escribir numero_ingresado "*" contador, "=" , resultado
+	Fin Para
+FinAlgoritmo
+![image](https://user-images.githubusercontent.com/111585895/187482094-f2e6c7a6-7b3a-45e6-8176-1a4dddaccc26.png)
+
+
 
 
 
